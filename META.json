@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Jirafe API",
    "author" : [
       "Fayland Lam <fayland@binary.com>"
    ],
@@ -37,6 +37,9 @@
       },
       "runtime" : {
          "requires" : {
+            "JSON" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
             "perl" : "5.008005"
          }
       },
@@ -47,6 +50,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-WWW-Jirafe/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-WWW-Jirafe",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-WWW-Jirafe.git",
+         "web" : "https://github.com/fayland/perl-WWW-Jirafe"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Fayland Lam <fayland@gmail.com>"
+   ]
 }
 
